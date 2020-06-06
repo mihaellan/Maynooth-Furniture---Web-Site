@@ -1,0 +1,349 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    background-color: #EADDE0;
+}
+
+header {
+    background-color: #A89398;
+}
+
+.nav-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: .5em 2em 0 2em;
+}
+
+.logo {
+    display: flex;
+}
+
+.logo span {
+    color: #F3E9E9;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: x-large;
+    padding-top: .8em;
+}
+
+.logo img {
+    width: 3.7em;
+    height: 2.6em;
+    padding-top: 0.5em;
+}
+
+a {
+    color: #F3E9E9;
+    text-decoration: none;
+    padding: 0 .9em;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    padding-top: .5em;
+    text-transform: uppercase;
+}
+
+.fa-sort-down {
+    position: relative;
+    top: -3px;
+}
+
+.search-box {
+    background-color: #EADDE0;
+    border: .2em solid #707070;
+    border-radius: 10px;
+    opacity: 45%;
+    position: relative;
+    top: -9px;
+}
+
+.search-box input[type="text"] {
+    background-color: #EADDE0;
+    border: 1em #707070;
+    font-weight: bold;
+    opacity: 50%;
+    padding: .5em 0 .5em .5em;
+    box-sizing: border-box;
+    font-size: 15px;
+    border-radius: 10px;
+}
+
+.fa-search {
+    color: white;
+}
+
+.basket img{
+    width: 2.3em;
+    height: 2em;
+}
+
+.basket {
+    position: relative;
+    top: -8px;
+}
+
+.hero-slider {
+    background: #F6F1F1 url('../images/hero-slider.jpg');
+    background-position: 15% 75%;
+    padding: 0 0 25em 0;
+    margin: 2em 2.5em 2em 2.5em;
+    background-size: cover;
+    border: .1em solid #707070;
+    border-radius: 10px;
+    box-shadow: 1px 6px 20px grey;
+}
+
+.hero-slider-textbox {
+    text-align: center;
+    background-color: #FFFFFF;
+    margin-top: 5em;
+    margin-left: 35em;
+    margin-right: 35em;
+    padding: 1em 0;
+    font-size: 80%;
+    color: #7E6A6F;
+    border-radius: 10px;
+    box-shadow: 1px 6px 20px grey;
+}
+
+.hero-slider-textbox h1 {
+    color: #7E6A6F;
+    font-weight: normal;
+}
+
+.hero-slider-textbox h1 span {
+    display: block;
+}
+
+.hero-slider-textbox h2 {
+    font-weight: normal;
+}
+
+.news-box {
+    background-color: #F6F1F1;
+    padding: 0 0 5em 0;
+    margin: 2em 2.5em 2em 2.5em;
+    border: .1em solid #707070;
+    border-radius: 10px;
+    box-shadow: 1px 6px 20px grey;
+}
+
+.news-textbox {
+    text-align: center;
+    background-color: #FFFFFF;
+    margin-top: 5em;
+    margin-left: 35em;
+    margin-right: 35em;
+    padding: 1em 0;
+    font-size: 80%;
+    color: #7E6A6F;
+    border-radius: 10px;
+    box-shadow: 1px 6px 20px grey;
+}
+
+.news-textbox h1 {
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+.news-textbox a {
+    color: #A89398;
+    text-decoration: underline;
+    font-size: 15px;
+}
+
+.fa-caret-right {
+    position: relative;
+    top: .1em;
+}
+
+.item {
+    display: inline;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 3em;
+}
+
+.item img {
+    width: 344px;
+    height: 410px;
+    border-radius: 10px;
+    box-shadow: 1px 6px 20px grey;
+    object-fit: cover;
+    position: relative;
+    top: 2em;
+    left: 3.4em;
+}
+
+.inspiration-box {
+    background: #F6F1F1 url(../images/kitchen.jpg);
+    background-size: cover;
+    background-position: 18% 60%;
+    padding: 0;
+    margin: 2em 2.5em 2em 2.5em;
+    border: .1em solid #707070;
+    border-radius: 10px;
+    box-shadow: 1px 6px 20px grey;
+}
+
+.inspiration-items {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 6.5em;
+    position: relative;
+    top: 1em;
+}
+
+.item1 {
+    background-color: #F6F1F1;
+    width: 427px;
+    height: 291px;
+    display: flex;
+    border-radius: 10px;
+    box-shadow: 1px 6px 20px black;
+    text-align: right;
+}
+
+.item1 img {
+    width: 153px;
+    height: 159px;
+    object-fit: cover;
+    border-radius: 10px;
+    position: relative;
+    top: 7em;
+    left: 1.5em;
+}
+
+.item1 h3 {
+    font-weight: normal;
+    text-align: center;
+    padding: 0 3em 0 3em;
+    color: #7E6A6F;
+}
+
+.inspiration-textbox {
+    text-align: center;
+    background-color: #FFFFFF;
+    margin-top: 5em;
+    margin-left: 35em;
+    margin-right: 35em;
+    padding: 1em 0;
+    font-size: 80%;
+    color: #7E6A6F;
+    border-radius: 10px;
+    box-shadow: 1px 6px 20px black;
+}
+
+.inspiration-textbox h1 {
+    font-weight: normal;
+    text-align: center;
+    color: #7E6A6F;
+}
+
+.inspiration-textbox h1 span {
+    display: block;
+    text-transform: uppercase;
+}
+
+.clearance-deals {
+    background-color: #F6F1F1;
+    padding: 0 0 5em 0;
+    margin: 2em 2.5em 2em 2.5em;
+    border: .1em solid #707070;
+    border-radius: 10px;
+    box-shadow: 1px 6px 20px grey;
+}
+
+.deals-textbox {
+    text-align: center;
+    background-color: #FFFFFF;
+    margin-top: 5em;
+    margin-left: 35em;
+    margin-right: 35em;
+    padding: 1em 0;
+    font-size: 80%;
+    color: #7E6A6F;
+    border-radius: 10px;
+    box-shadow: 1px 6px 20px grey;
+}
+
+.deals-textbox .fa-caret-right {
+    position: relative;
+    top: .1em;
+}
+
+.deals-textbox h1 {
+    font-weight: normal;
+}
+
+.deals-textbox a {
+    color: #A89398;
+    text-decoration: underline;
+    font-size: 15px;
+}
+
+.deal {
+    display: inline;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 3em;
+}
+
+.deal img {
+    width: 344px;
+    height: 410px;
+    border-radius: 10px;
+    box-shadow: 1px 6px 20px grey;
+    object-fit: cover;
+    position: relative;
+    top: 2em;
+    left: 3.4em;
+}
+
+footer {
+    background-color: #A89398;
+    color: #F3E9E9;
+    padding-top: 2em;
+    padding-left: 2.6em;
+    padding-right: 2.6em;
+}
+
+footer h4 {
+    font-weight: normal;
+    font-size: smaller;
+}
+
+.foot-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.foot-wrapper a {
+    display: block;
+    padding: .4em;
+    position: relative;
+    top: .7em;
+    left: 7em;
+}
+
+.col {
+    padding-bottom: 2em;
+}
+
+footer h4 span {
+    display: block;
+}
+
+.col img {
+    position: relative;
+    top: .5em;
+}
+
+
+
